@@ -1,0 +1,11 @@
+installed:
+  packages: 940
+  dirs: 4748
+  files: 44021
+  bytes: 2810305496
+  triggers: 21
+available:
+  names: 79471
+  packages: 33091
+atoms:
+  num: 21502
