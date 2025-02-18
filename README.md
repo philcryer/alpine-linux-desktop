@@ -6,6 +6,7 @@
 
 ### Neofetch
 
+```shell
 [fak3r@slug alpine-linux-desktop]$ neofetch
        .hddddddddddddddddddddddh.          fak3r@slug
       :dddddddddddddddddddddddddd:         ----------
@@ -27,6 +28,7 @@ hdddyo+ohddyosdddddddddho+oydddy++ohdddh   Theme: Adwaita [GTK2/3]
      /dddddddddddddddddddddddddddd/        Memory: 4209MiB / 7729MiB
       :dddddddddddddddddddddddddd:
        .hddddddddddddddddddddddh.
+```
 
 ### Ansible
 
