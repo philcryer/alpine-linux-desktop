@@ -66,6 +66,12 @@ cp -r src/icons ~/.local/share/
 rofi -combi-modi drun,ssh -theme solarized -font "hack 10" -show combi -show-icons
 ```
 
+simplier, just run
+
+```shell
+rofi -combi-modi drun,ssh -theme solarized -font "hack 25" -show combi -show-icons
+```
+
 ## Configs
 
 ```shell
