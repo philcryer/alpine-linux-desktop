@@ -30,10 +30,6 @@ hdddyo+ohddyosdddddddddho+oydddy++ohdddh   Theme: Adwaita [GTK2/3]
        .hddddddddddddddddddddddh.
 ```
 
-### Ansible
-
-https://wiki.alpinelinux.org/wiki/Ansible	
-
 ## Upgrade
 
 ```shell
@@ -50,6 +46,26 @@ Files, including configuration, setttings, walpaper, icons, etc that Ansible wil
 src has files config'd for desktop
 ```
 
+## Setup
+
+## Wallpaper
+
+```shell
+cp src/images/Nordic-mountain-wallpaper.jpg .local/share/backgrounds
+```
+
+## Mouse cursors
+
+```shell
+cp src/icons ~/.local/share/
+```
+
+### rofi example
+
+```shell
+rofi -combi-modi drun,ssh -theme solarized -font "hack 10" -show combi -show-icons
+```
+
 ### Installed packages and their stats
 
 All packages that Ansible will install, and their stats
@@ -58,11 +74,10 @@ All packages that Ansible will install, and their stats
 doas apk info > packages_installed.txt; doas apk stats > package_stats.txt
 ```
 
-### rofi example
+### Ansible
 
-```shell
-rofi -combi-modi drun,ssh -theme solarized -font "hack 10" -show combi -show-icons
-```
+https://wiki.alpinelinux.org/wiki/Ansible	
+
 
 ## License
 
@@ -80,3 +95,5 @@ https://hub.docker.com/r/alpine/ansible
 https://github.com/alpine-docker/multi-arch-docker-images/blob/master/ansible/Dockerfile
 
 ### Thanks
+
+
