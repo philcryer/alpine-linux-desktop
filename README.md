@@ -66,6 +66,12 @@ cp src/icons ~/.local/share/
 rofi -combi-modi drun,ssh -theme solarized -font "hack 10" -show combi -show-icons
 ```
 
+## Configs
+
+```shell
+cp src/conf/.* ~
+```
+
 ### Installed packages and their stats
 
 All packages that Ansible will install, and their stats
