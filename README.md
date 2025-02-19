@@ -57,7 +57,7 @@ cp src/images/Nordic-mountain-wallpaper.jpg .local/share/backgrounds
 ## Mouse cursors
 
 ```shell
-cp src/icons ~/.local/share/
+cp -r src/icons ~/.local/share/
 ```
 
 ### rofi example
