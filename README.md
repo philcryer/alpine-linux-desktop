@@ -51,6 +51,7 @@ src has files config'd for desktop
 ## Wallpaper
 
 ```shell
+mkdir -p .local/share/backgrounds
 cp src/images/Nordic-mountain-wallpaper.jpg .local/share/backgrounds
 ```
 
