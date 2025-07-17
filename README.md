@@ -39,23 +39,25 @@ So in short, the idea is, you install Alpine Linux via their [excellent document
 
 ## Install/Usage
 
-#) Install Alpine Linux on a computer
-#) Install *git*
+1) Install Alpine Linux on a computer
+2) Install *git*
 ```
 (doas) apk git
 ```
-#) Checkout this project
+3) Checkout this project
 ```
-git clone ...
+git clone git@github.com:philcryer/alpine-linux-desktop.git
 ```
-#) Run the installer
+4) Run the installer
 ```
 sh install.sh
 ```
-#) ???
-#) Profit! (profit not guarenteed or implied)
+5) ???
+6) Profit! (profit not guarenteed or implied)
 
 ## Notes, hints and daily usage 
+
+Some of these topics are day-to-day usage tips, others are configs which will be automatically applied via the installer.
 
 ### Upgrade the OS
 
@@ -65,11 +67,7 @@ apk -U upgrade
 
 ### Included files
 
-Files, including configuration, setttings, walpaper, icons, etc that Ansible will setup
-
-```shell
-src has files config'd for desktop
-```
+The **src** directory has files config'd for desktop
 
 ### Wallpapers
 
@@ -84,7 +82,7 @@ cp src/images/Nordic-mountain-wallpaper.jpg .local/share/backgrounds
 cp -r src/icons ~/.local/share/
 ```
 
-### rofi/wofi (app launcher)
+### rofi/wofi (app launcher cmd)
 
 ```shell
 rofi -combi-modi drun,ssh -theme solarized -font "hack 10" -show combi -show-icons
@@ -104,7 +102,7 @@ cp src/conf/.* ~
 
 ### Installed packages and their stats
 
-All packages that Ansible will install, and their stats
+All packages that Ansible will install, and their stats, this helps me track what was installed so I can add it to Ansible so it's consistent going forward
 
 ```shell
 doas apk info > packages_installed.txt; doas apk stats > package_stats.txt
@@ -127,6 +125,6 @@ MIT
 
 ## Quote
 
-Harry Tuttle: "Listen, kid, we're all in it together.*"
+Harry Tuttle: *"Listen, kid, we're all in it together."*
 
 ### Thanks
