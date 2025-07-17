@@ -125,6 +125,6 @@ MIT
 
 ## Quote
 
-Harry Tuttle: *"Listen, kid, we're all in it together."*
+Harry Tuttle: *"Listen kid, we're all in it together."*
 
 ### Thanks
